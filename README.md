@@ -11,8 +11,7 @@ This project demonstrates a simple React application that fetches cryptocurrency
 
 ## Demo
 
-![Demo Screenshot](![image](https://github.com/aravindFrontEnd/react-pagination/assets/87238615/55474936-80b5-41aa-ab28-320c4a345390)
-)
+![Demo Screenshot](https://github.com/aravindFrontEnd/react-pagination/assets/87238615/ce38d5c7-d6ab-485f-a7c2-21bc84a3e02a)
 
 ## Installation
 
