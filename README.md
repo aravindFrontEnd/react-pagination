@@ -1,4 +1,4 @@
-# React CoinGecko Pagination
+# React  Pagination
 
 This project demonstrates a simple React application that fetches cryptocurrency data from the CoinGecko API, displays the data in a paginated format, and includes a styled footer.
 
@@ -11,7 +11,7 @@ This project demonstrates a simple React application that fetches cryptocurrency
 
 ## Demo
 
-![Demo Screenshot](path/to/screenshot.png)
+![Demo Screenshot](https://github.com/aravindFrontEnd/react-pagination/assets/87238615/ce38d5c7-d6ab-485f-a7c2-21bc84a3e02a)
 
 ## Installation
 
