@@ -40,6 +40,13 @@ const CoinGeckoPagination = () => {
     setCurrentPage((prev) => (prev === totalPages ? prev : prev + 1));
   };
 
+  const handleScrollToTop = () => {
+    window.scrollTo({
+      top: 0,
+      behavior: "smooth",
+    });
+  };
+
   return (
     <div className="container">
       <h1>Cryptocurrency Market Data</h1>
@@ -73,6 +80,9 @@ const CoinGeckoPagination = () => {
           Next
         </button>
       </div>
+      <button className="back-to-top" onClick={handleScrollToTop}>
+      ↑
+      </button>
     </div>
   );
 };

@@ -1,7 +1,12 @@
 /* styles.css */
+
 .container {
   padding: 20px;
   font-family: Arial, sans-serif;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  padding-bottom: 80px; 
 }
 
 h1 {
@@ -72,4 +77,23 @@ h1 {
 .pagination button:disabled {
   background-color: #ccc;
   cursor: not-allowed;
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: teal; /* Teal color */
+  color: #fff;
+  border: none;
+  border-radius: 5px; /* Rounded shape */
+  padding: 10px;
+  cursor: pointer;
+  transition: background-color 0.2s, transform 0.2s;
+  font-size: 36px;
+}
+
+.back-to-top:hover {
+  background-color: #00796b; /* Darker teal on hover */
+  transform: scale(1.05);
 }
